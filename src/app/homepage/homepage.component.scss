@@ -1,0 +1,29 @@
+:host(app-homepage) {
+    flex: 1;
+  
+    .homepage-container {
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  
+      .reservation-container {
+        height: 200px;
+        width: 500px;
+        border: 5px black solid;
+        border-radius: 10px;
+        display: flex;
+        background-color: rgba(255, 255, 255, 1);
+        opacity: 0.7;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+  
+        h1 {
+          color: black;
+          font-size: 30px;
+        }
+      }
+    }
+  }

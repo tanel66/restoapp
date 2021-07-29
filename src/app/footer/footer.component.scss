@@ -1,0 +1,25 @@
+:host(app-footer) {
+    display: flex;
+    height: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+  
+    .footer-container {
+      display: flex;
+      flex-direction: row;
+      width: 300px;
+      justify-content: space-evenly;
+    }
+
+
+    img{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    
+  }
+
+  

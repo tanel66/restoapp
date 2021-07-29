@@ -1,0 +1,36 @@
+:host(app-navbar) {
+
+    h1{
+        cursor: pointer;
+    }
+
+    height: 100px;
+    .navbar-container{
+        
+        background-color: black;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    
+        .toolbar-container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+
+            > h1{
+                margin-right: 70px;
+            }
+        }
+    
+    
+        .logo-container{
+            align-self: center;
+            h1{
+                margin-left: 70px;
+            }
+        }
+    }
+  }

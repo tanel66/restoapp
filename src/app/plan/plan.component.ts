@@ -14,7 +14,10 @@ export class PlanComponent implements OnInit {
     alert("Jah, nupp tõepoolest toimib!")
   }
 
-  
+  status: boolean = false;
+clickEvent(){
+    this.status = !this.status;       
+}
 
 
   

@@ -16,3 +16,8 @@ color: white; }
 h1{
     font-size: 20px;
 }
+
+.mat-input-element, .mat-input-element::-webkit-search-cancel-button, .mat-input-element::-webkit-search-decoration, .mat-input-element::-webkit-search-results-button, .mat-input-element::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    color: purple;
+}

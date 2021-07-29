@@ -9,6 +9,16 @@ export class PlanComponent implements OnInit {
 
   constructor() { }
 
+
+  alertMe(){
+    alert("Jah, nupp tõepoolest toimib!")
+  }
+
+  
+
+
+  
+
   ngOnInit(): void {
   }
 

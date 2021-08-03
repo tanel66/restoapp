@@ -1,130 +1,45 @@
 :host(app-plan) {
-    flex: 1;
-  
-    .homepage-container {
-      height: 100%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-  
-      .reservation-plan {
-        height: 700px;
-        width: 1000px;
-        border: 5px black solid;
-        border-radius: 10px;
-        display: flex;
-        background-color: rgba(255, 255, 255, 1);
-        opacity: 0.7;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-  
-        h1 {
-          color: black;
-          font-size: 30px;
-        }
+	flex: 1;
 
-        .table-container{
-            display: flex;
-            flex-direction: column;
-        }
+	.plan-container {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
 
-        .table{
-            
-            border: 5px black solid;
-            background-color: gray;
-            margin: 35px;
-            margin-bottom: 60px;
-            border-radius: 15px;
+		h1 {
+			color: black;
+		}
 
-            
+		.tables-container {
+			> * + * {
+				margin-left: 30px;
+			}
+		}
 
-            
-        }
-        .table.occupied{
-            background-color: red;
-        }
+		.city-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			height: 70%;
+			align-items: center;
 
-        .table:not(.occupied):hover{
-            cursor: pointer;
-            transform: scale(1.5);
-        
-        }
-        .table.selected{
-            background-color: #6feaf6;
-        
-        }
-           
-        
-        .table.two{
-            height: 60px;
-            width: 60px;
+			.tables-container {
+				display: flex;
+				flex-direction: row;
+			}
+		}
 
-        }
-        .table.four{
-            height: 60px;
-            width: 110px;
-        }
-        .table.six{
-            height: 60px;
-            width: 160px;
-        }
-        .table.eight{
-            height: 60px;
-            width: 230px;
-        }
+		.beach-container {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			height: 30%;
+			align-items: center;
 
-        .row{
-            display: flex;
-            flex-direction: row;
-        }
-        .row.sec{
-            flex-direction: row-reverse;
-        }
-
-
-      }
-
-
-      .input-plan {
-        height: 700px;
-        width: 400px;
-        border: 5px pink solid;
-        border-radius: 10px;
-        display: flex;
-        background-color: rgba(255, 255, 255, 1);
-        opacity: 0.7;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-right: 20px;
-  
-        h1 {
-          color: black;
-          font-size: 30px;
-        }
-        mat-form-field{
-            width: 350px;
-        }
-        button{
-            margin-top: 50px;
-            height: 70px;
-            width: 150px;
-            
-
-           
-        }
-
-
-      }
-    }
-    button.A{
-        background-color: red;
-    }
-
-    button.B{
-        background-color: blue;
-    }
-    
-  }
+			.tables-container {
+				display: flex;
+				flex-direction: row;
+			}
+		}
+	}
+}

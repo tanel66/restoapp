@@ -6,19 +6,18 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { MenuComponent } from './menu/menu.component';
 import { PlanComponent } from './plan/plan.component';
 
-
-
 const routes: Routes = [
-  {path: '', component: HomepageComponent},
-  {path: 'about', component: AboutComponent},
-  {path: 'contact', component: ContactComponent},
-  {path: 'menu', component: MenuComponent},
-  {path: 'plan', component: PlanComponent},
-  {path: '**', redirectTo: ''}
+	{ path: '', component: HomepageComponent },
+	{ path: 'about', component: AboutComponent },
+	{ path: 'contact', component: ContactComponent },
+	{ path: 'menu', component: MenuComponent },
+	{ path: 'plan', component: PlanComponent },
+	{ path: '**', redirectTo: '' }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+	imports: [RouterModule.forRoot(routes)],
+	exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

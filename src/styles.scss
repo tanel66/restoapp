@@ -1,23 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
-
-html,body{
-    height: 100%;
+html, body {
+	height: 100%;
 }
 
-
-body,h1,p{
-    margin: unset;
+body, h1, p {
+	margin: unset;
 }
 
-body { font-family: Roboto, "Helvetica Neue", sans-serif;
-color: white; }
+body {
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+	color: white;
+}
 
-
-h1{
-    font-size: 20px;
+h1 {
+	font-size: 20px;
 }
 
 .mat-input-element, .mat-input-element::-webkit-search-cancel-button, .mat-input-element::-webkit-search-decoration, .mat-input-element::-webkit-search-results-button, .mat-input-element::-webkit-search-results-decoration {
-    -webkit-appearance: none;
-    color: purple;
+	-webkit-appearance: none;
+	color: purple;
 }
